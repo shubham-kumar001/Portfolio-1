@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Kumar Bal | Cloud Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="bg-elements">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <!-- Navigation with Glass Effect -->
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">SKB</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><span class="nav-icon"><i class="fas fa-home"></i></span> Home</a></li>
+                <li><a href="#education" class="nav-link"><span class="nav-icon"><i class="fas fa-graduation-cap"></i></span> Education</a></li>
+                <li><a href="#experience" class="nav-link"><span class="nav-icon"><i class="fas fa-briefcase"></i></span> Experience</a></li>
+                <li><a href="#projects" class="nav-link"><span class="nav-icon"><i class="fas fa-code"></i></span> Projects</a></li>
+                <li><a href="#skills" class="nav-link"><span class="nav-icon"><i class="fas fa-cogs"></i></span> Skills</a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-icon"><i class="fas fa-envelope"></i></span> Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section id="home" class="hero parallax-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">🚀 AVAILABLE FOR INTERNSHIPS</div>
+                <h1 class="hero-title gradient-text">
+                    <span class="text-reveal">SHUBHAM</span>
+                    <span class="text-reveal delay-1">KUMAR</span>
+                    <span class="text-reveal delay-2">BAL</span>
+                </h1>
+                <h2 class="hero-subtitle typing-text">Cloud Engineer & Full Stack Developer</h2>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-count="5">3</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="12">3</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="1">1</div>
+                        <div class="stat-label">Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="3">3</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                </div>
+
+                <p class="hero-description">
+                    Passionate about <span class="highlight">cloud technologies</span> and <span class="highlight">web development</span> with hands-on experience in <span class="highlight">AWS</span>, <span class="highlight">Python</span>, and <span class="highlight">full-stack development</span>. Building innovative solutions for the digital world.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary btn-glow">
+                        <span class="btn-text">Contact Me</span>
+                        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    </a>
+                    <a href="#projects" class="btn-secondary btn-border-glow">
+                        <span class="btn-text">View Projects</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-container">
+                        <img src="WhatsApp Image 2025-12-25 at 19.52.41_07f7b9ce.jpg" alt="Shubham Kumar Bal" class="profile-image" id="profileImg">
+                        <div class="image-frame"></div>
+                        <div class="image-glow"></div>
+                        <div class="image-particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                    </div>
+                    <div class="floating-info">
+                        <div class="info-card">
+                            <i class="fas fa-cloud"></i>
+                            <span>AWS Certified</span>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll Down</div>
+        </div>
+    </section>
+
+    <!-- Contact Info Bar -->
+    <div class="contact-bar glass-bar">
+        <div class="contact-info">
+            <div class="contact-item slide-in-item">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">Phone</span>
+                    <span class="contact-value">7328824196</span>
+                </div>
+            </div>
+            <div class="contact-item slide-in-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">mrskb773@gmail.com</span>
+                </div>
+            </div>
+            <div class="contact-item slide-in-item">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">Location</span>
+                    <span class="contact-value">Jajpur, Orissa</span>
+                </div>
+            </div>
+            <div class="contact-item slide-in-item">
+                <div class="contact-icon">
+                    <i class="fas fa-calendar"></i>
+                </div>
+                <div class="contact-details">
+                    <span class="contact-label">Date of Birth</span>
+                    <span class="contact-value">Available on Request</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Education Section -->
+        <section id="education" class="section timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">🎓</div>
+                    <h2 class="section-title">Education Journey</h2>
+                    <p class="section-subtitle">My academic background and qualifications</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-card">
+                            <div class="timeline-date">2024 - 2027</div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Computer Application</h3>
+                                <h4>Centurion University of Technology and Management</h4>
+                                <p>Currently pursuing degree in Computer Applications with focus on cloud computing and web development.</p>
+                                <div class="timeline-tags">
+                                    <span>Cloud Computing</span>
+                                    <span>Web Development</span>
+                                    <span>Database Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-card">
+                            <div class="timeline-date">2022 - 2024</div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>12th Grade - Science Stream</h3>
+                                <h4>Sri Aurobindo Science Higher Secondary School</h4>
+                                <p>Completed higher secondary education with focus on Physics, Chemistry, Mathematics, and Computer Science.</p>
+                                <div class="timeline-tags">
+                                    <span>Computer Science</span>
+                                    <span>Mathematics</span>
+                                    <span>Physics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-card">
+                            <div class="timeline-date">2016 - 2022</div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>10th Grade</h3>
+                                <h4>Chari Samprada Nodal High School</h4>
+                                <p>Completed secondary education with excellent academic performance and foundation in technology.</p>
+                                <div class="timeline-tags">
+                                    <span>Foundation</span>
+                                    <span>Technology</span>
+                                    <span>Academics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="section languages-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">🌐</div>
+                    <h2 class="section-title">Language Proficiency</h2>
+                    <p class="section-subtitle">Languages I speak and write</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="languages-container">
+                    <div class="language-card">
+                        <div class="language-header">
+                            <span class="language-flag">🇮🇳</span>
+                            <h3>Hindi</h3>
+                        </div>
+                        <div class="language-progress-bar">
+                            <div class="progress-fill" data-width="95"></div>
+                        </div>
+                        <div class="language-level">Native Speaker</div>
+                    </div>
+                    
+                    <div class="language-card">
+                        <div class="language-header">
+                            <span class="language-flag">🇺🇸</span>
+                            <h3>English</h3>
+                        </div>
+                        <div class="language-progress-bar">
+                            <div class="progress-fill" data-width="85"></div>
+                        </div>
+                        <div class="language-level">Professional</div>
+                    </div>
+                    
+                    <div class="language-card">
+                        <div class="language-header">
+                            <span class="language-flag">🇮🇳</span>
+                            <h3>Odia</h3>
+                        </div>
+                        <div class="language-progress-bar">
+                            <div class="progress-fill" data-width="90"></div>
+                        </div>
+                        <div class="language-level">Native Speaker</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">🚀</div>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Showcasing my technical expertise and creativity</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-badge">New</div>
+                        <div class="project-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <i class="fas fa-paw"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Extinct Animal Details Portal</h3>
+                            <p>Interactive educational website showcasing extinct animals with detailed information, timelines, and conservation efforts.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-project">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn-project">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-badge">Featured</div>
+                        <div class="project-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Online Grocery Shop</h3>
+                            <p>Full-stack e-commerce platform with user authentication, product management, cart functionality, and payment integration.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-project">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn-project">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Advanced Calculator Suite</h3>
+                            <p>Comprehensive calculator applications built using C++ and C, featuring scientific functions and unit conversions.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">C</span>
+                                <span class="tech-tag">OOP</span>
+                                <span class="tech-tag">Algorithms</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn-project">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn-project">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="more-projects">
+                    <a href="#" class="btn-more">
+                        <span>View All Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">💼</div>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">My journey in the professional world</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3>Times of India Group</h3>
+                            <div class="company-tags">
+                                <span class="company-tag">Media & Tech</span>
+                                <span class="company-tag">Bhubaneswar</span>
+                            </div>
+                        </div>
+                        <div class="experience-date">June 2024 - July 2024</div>
+                    </div>
+                    
+                    <div class="experience-content">
+                        <h4>Web Development Intern</h4>
+                        <p class="experience-description">
+                            Worked on development of web applications and management systems for one of India's largest media houses.
+                        </p>
+                        
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h5>Web Application Development</h5>
+                                    <p>Developed responsive web components and optimized existing systems for better performance</p>
+                                </div>
+                            </div>
+                            
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h5>Performance Optimization</h5>
+                                    <p>Improved website loading speed by 15% through code optimization and best practices</p>
+                                </div>
+                            </div>
+                            
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h5>System Management</h5>
+                                    <p>Contributed to redesigning internal management systems for better workflow efficiency</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">⚡</div>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies I work with</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="skills-categories">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>Backend & Programming</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C/C++</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3>Cloud & DevOps</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-percent="78%">78%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Linux</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-tags-container">
+                    <div class="skill-tag">EC2</div>
+                    <div class="skill-tag">3D Modeling</div>
+                    <div class="skill-tag">DSA</div>
+                    <div class="skill-tag">Ubuntu</div>
+                    <div class="skill-tag">Cloud Computing</div>
+                    <div class="skill-tag">Responsive Design</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">REST APIs</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <div class="additional-grid">
+            <!-- Training -->
+            <section class="section sub-section">
+                <div class="section-header">
+                    <div class="section-badge">📚</div>
+                    <h2 class="section-title">Training & Courses</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="course-content">
+                        <h3>HTML5, CSS3 & JavaScript Mastery</h3>
+                        <p>Comprehensive front-end development course covering modern web technologies, responsive design, and interactive web applications.</p>
+                        <div class="course-tags">
+                            <span>Frontend</span>
+                            <span>Web Development</span>
+                            <span>Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interests -->
+            <section class="section sub-section">
+                <div class="section-header">
+                    <div class="section-badge">🎯</div>
+                    <h2 class="section-title">Interests</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="interests-container">
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="interest-content">
+                            <h3>Web Development</h3>
+                            <p>Building modern, responsive websites and web applications</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="interest-content">
+                            <h3>Cloud Computing</h3>
+                            <p>AWS, cloud architecture, and scalable solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements -->
+            <section class="section sub-section">
+                <div class="section-header">
+                    <div class="section-badge">🏆</div>
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="achievements-container">
+                    <div class="achievement-card">
+                        <div class="achievement-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Web Development Intern</h3>
+                            <p>Successfully completed internship at Times of India Group, developing and optimizing web applications.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-badge">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Handwriting Excellence</h3>
+                            <p>Awarded for outstanding handwriting skills during 10th grade academic year.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">📞</div>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's work together on your next project</p>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Me</h3>
+                                <p>7328824196</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Me</h3>
+                                <p>mrskb773@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Jajpur, Orissa, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shubham-kumar-bal-91842837a" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:mrskb773@gmail.com" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="#" class="social-link resume">
+                            <i class="fas fa-file-download"></i>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">SKB</div>
+                    <p>Cloud Engineer & Full Stack Developer</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shubham Kumar Bal. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/particles-config.js"></script>
+</body>
+</html>
